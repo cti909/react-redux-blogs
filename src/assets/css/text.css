@@ -1,0 +1,10 @@
+h1,h2,h3,h4,h5,p,span,label {
+    margin: 0;
+}
+.text-margin {
+    margin: 0;
+}
+br {   
+    content: "A" ;
+    display: block;
+}

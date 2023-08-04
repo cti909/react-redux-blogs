@@ -1,0 +1,16 @@
+.post-filter {
+    display: block;
+}
+
+.back-to-top {
+    bottom: 5%;
+    right: 3%;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 600px) {
+    .post-filter {
+        display: flex;
+        justify-content: space-between;
+    }
+}

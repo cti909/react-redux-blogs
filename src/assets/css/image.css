@@ -1,0 +1,42 @@
+
+.image-display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.image-thumbnail {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.focus-link:hover  .image-thumbnail {
+  opacity: 0.5;
+  box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+.image-cursor {
+  cursor: pointer;
+}
+
+.image-review {
+  width: 100%;
+  /* object-fit: cover; */
+}
+.button-cancel {
+  top: 10px;
+  right: 10px;
+}
+@media screen and (min-width: 600px) {
+  .image-display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+  }
+  .image-review {
+    width: 50%;
+    object-fit: cover;
+  }
+}
